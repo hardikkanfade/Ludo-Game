@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.house{
+  height: 250px;
+  width: 250px;
+  background-color: green;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+body{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+.box{
+  height:40px;
+  width: 40px;
+  border: 1px solid black;
+  margin:0px;
+}
+.game{
+  height: 632px;
+  width: 632px;
+}
+.top,.bottom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.green_bottom{
+  display:flex;
+  flex-wrap: wrap;
+}
+.green_path{
+  background-color: green;
+}
+.yellow_path{
+  background-color: yellow;
+}
+.red_path{
+  background-color:red;
+}
+.blue_path{
+  background-color:blue;
+}
+.dice{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+.player{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: aqua;
+  place-content: bottom;
+}
+/* .green{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; */
+
